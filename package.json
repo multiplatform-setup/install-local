@@ -1,0 +1,26 @@
+{
+  "name": "@multiplatform-setup/install-local",
+  "version": "0.1.0",
+  "description": "Installs a local project and all its dependencies without saving it to package.json.",
+  "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/multiplatform-setup/install-local"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "install-local": "./index.js"
+  },
+  "keywords": [
+    "dependency management",
+    "temporary dependencies"
+  ],
+  "author": "Lukas Wagner <appdev.lukaswagner@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "rimraf": "^2.6.3"
+  }
+}
